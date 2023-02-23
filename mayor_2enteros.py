@@ -8,17 +8,11 @@ print("--------------------------")
 x= int(input("dijite el valor de x: "))
 y= int(input("dijite el valor de y: "))
 #processing
-
+#output
 if x == y:
-    #output
+    
     print("los numeros son iguales...")
+elif x > y: 
+    print("el mayor entre" , str(x) , " y " , str(y) , " es " , str(x))
 else:
-    if x > y:
-        mayor=x
-    else:
-        mayor =y
-
-
-
-# output
-print("el mayor entre" + str(x) + " y " + str(y)) + " es " + str(mayor)
+    print("el mayor entre" , str(x) , " y " , str(y) , " es " , str(y))
